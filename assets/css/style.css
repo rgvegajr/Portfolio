@@ -17,7 +17,7 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     font-size: 24px;
-    background-color: #4AAAA5;
+    background-color: rgb(79, 110, 194);
     margin: 0 400px 0 30px;
     padding: 15px 25px;
 }
@@ -28,14 +28,14 @@
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: rgb(79, 110, 194);
 }
 
 img {
     float: left;
     height: 200px;
     width: 200px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 p {
@@ -52,7 +52,7 @@ hr {
 }
 
 .card-body {
-    background-color: #4AAAA5;
+    background-color: rgb(79, 110, 194);
     text-align: center;
 }
 
@@ -77,9 +77,13 @@ input {
 
 #button {
     color: white;
-    background-color: #4aaaa5;
+    background-color: rgb(79, 110, 194);
     padding: 6px 20px;
     border: hidden;
+}
+
+#icons {
+    padding: 20px;
 }
 
 footer {
@@ -91,6 +95,6 @@ footer {
     color: white;
     text-align: center;
     font-size: 10px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid rgb(79, 110, 194);
     height: 40px;
 }
